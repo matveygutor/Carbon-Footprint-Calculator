@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    background-image: url('img/BlueNature.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainblock{
+    margin-top: 200px;
+    height: 400px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
+}
+
+.header-logo{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 1px 1px 1px #1f1f1f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+}
+
+.value{
+    text-shadow: 1px 1px 1px #1f1f1f;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;   
+}
+
+.button-block{
+    height: 100px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 250px;
+    padding: 0 15px;
+    margin: 0 15px 20px 0;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #1f1f1f;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    z-index: 1;
+}
+
+.button-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover{
+    
+    background-color: black;
+}
